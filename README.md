@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.youtube.com/watch?v=cQnUopEeZgw&t=0ss&ab_channel=TsbSankara)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution for css](https://www.youtube.com/watch?v=cQnUopEeZgw&t=0ss&ab_channel=TsbSankara)
+- Live Site URL: [My live page](https://salmanmario.github.io/Interactive-Landing-Page/)
 
 ## My process
 
@@ -75,10 +75,11 @@ btns.forEach((rateBtn) => {
 
 ### Useful resources
 
-- [Example resource 1](https://www.youtube.com/watch?v=cQnUopEeZgw&t=0ss&ab_channel=TsbSankara) - This helped me with css flex.
+- [Youtube Guide](https://www.youtube.com/watch?v=cQnUopEeZgw&t=0ss&ab_channel=TsbSankara) - This helped me with css flex.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/SalmanMario)
+- Website - [Salman Mario](https://salmanmario.github.io/Interactive-Landing-Page/)
+- Frontend Mentor - [@SalmanMario](https://www.frontendmentor.io/profile/SalmanMario)
+
 # Interactive-Landing-Page
