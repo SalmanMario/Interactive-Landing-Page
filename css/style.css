@@ -4,6 +4,7 @@
   --medium-grey: hsl(216, 12%, 54%);
   --blue: hsl(213, 19%, 18%);
   --dark-blue: hsl(216, 12%, 8%);
+  --orange: hsl(25, 97%, 53%);
 }
 
 * {
@@ -74,12 +75,12 @@ body {
 }
 
 .btn:hover {
-  background-color: orange;
+  background-color: var(--orange);
   color: var(--white);
 }
 
 .submit {
-  background-color: orange;
+  background-color: var(--orange);
   border: none;
   color: white;
   width: 100%;
@@ -122,7 +123,7 @@ body {
 }
 
 .message .selected {
-  color: orange;
+  color: var(--orange);
   padding: 0.35rem;
   background-color: hsl(210, 7%, 20%);
   border-radius: 20px;
