@@ -1,0 +1,140 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-grey: hsl(217, 12%, 63%);
+  --medium-grey: hsl(216, 12%, 54%);
+  --blue: hsl(213, 19%, 18%);
+  --dark-blue: hsl(216, 12%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: var(--dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  min-height: 100vh;
+}
+
+.active {
+  display: none;
+}
+
+.main-container,
+.message {
+  background-color: var(--blue);
+  height: 400px;
+  width: 350px;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.icon {
+  padding: 15px 15px;
+  background-color: hsl(217, 11%, 24%);
+  border-radius: 100%;
+}
+
+.main-container p {
+  padding-bottom: 20px;
+}
+
+.main-container h2 {
+  color: white;
+  padding: 15px 0;
+  font-weight: 700;
+}
+
+.main-container p {
+  color: var(--light-grey);
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  color: var(--light-grey);
+  padding: 0.625rem 1rem;
+  border: none;
+  border-radius: 100%;
+  background-color: hsl(216, 5%, 22%);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: orange;
+  color: var(--white);
+}
+
+.submit {
+  background-color: orange;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn-submit {
+  margin: 2.5rem 0;
+}
+
+.btn-active {
+  background-color: var(--light-grey);
+  color: white;
+}
+
+.btn:focus {
+  color: white;
+  background-color: var(--medium-grey);
+}
+
+/* Message Section */
+
+.message .phone {
+  display: block;
+  padding: 1rem;
+}
+
+.message h2 {
+  text-align: center;
+  color: var(--white);
+  padding: 1rem 0;
+}
+
+.message p {
+  color: var(--medium-grey);
+  font-size: 1rem;
+  text-align: center;
+}
+
+.message .selected {
+  color: orange;
+  padding: 0.35rem;
+  background-color: hsl(210, 7%, 20%);
+  border-radius: 20px;
+}
+
+.second-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#rate-again {
+  margin: 15px 0;
+}
